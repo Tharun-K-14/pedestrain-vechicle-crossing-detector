@@ -1,7 +1,12 @@
-Project Overview
+**Pedestrian Vehicle Crossing Detector Using Arduino**
+
+This project demonstrates the creation of a Pedestrian Vehicle Crossing Detector system using an Arduino, an ultrasonic sensor, and basic traffic logic to detect the crossing of vehicles and pedestrians at a designated crossing point. The system helps in managing the traffic flow and ensures safety for pedestrians.
+
+**Project Overview**
+
 The Pedestrian Vehicle Crossing Detector is designed to automate the detection of both vehicles and pedestrians approaching a designated crossing area. The system can be implemented for smart traffic management, where it detects the presence of vehicles and pedestrians using sensors and then triggers a signal or action, such as turning on a traffic light or activating a crossing signal.
 
-Components Used:
+**Components Used:**
 
 Arduino Uno board
 HC-SR04 Ultrasonic Distance Sensor
@@ -21,7 +26,8 @@ Signal Control: The system can be extended to control traffic signals using LEDs
 
 Auditory Alerts: A buzzer or sound system can be added to alert the pedestrians or drivers about an incoming signal or the need to stop.
 
-How It Works:
+**How It Works:**
+
 Vehicle Detection:
 
 The HC-SR04 ultrasonic sensor sends a pulse to detect the presence of an object (vehicle) within a specified range.
